@@ -1,2 +1,2 @@
-#Media-Query-Portfolio
+# Media-Query-Portfolio
 Responsive portfolio made using media queries
