@@ -176,13 +176,19 @@ p{
     }
 
     .container{
-        height: 830px;
+        height: 400px;
         width: auto;
         margin: 10px auto 10px auto;
+    }
+
+    #profile-photo{
+        float: none;
+        display: block;
     }
 
     footer{
         position: static;
         bottom: 10px;
+        /* display: block; */
     }
 }
