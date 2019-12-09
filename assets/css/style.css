@@ -168,7 +168,7 @@ p{
     }
     
     footer{
-        position: fixed;
+        position: static;
         width: 100%;
         /* bottom: 25px; */
     }
@@ -216,9 +216,8 @@ p{
         width: 560px;
         height: auto;
         background-color: #ffffff;
-        margin: 200px auto 200px auto;
-        /* margin-top: 20px;
-        margin-bottom: 60px; */
+        margin: 100px auto 100px auto;
+        
     
     }
     
@@ -309,7 +308,7 @@ p{
     }
     
     footer{
-        position: fixed;
+        position: static;
         width: 100%;
         bottom: 25px;
     }
@@ -451,7 +450,7 @@ p{
     }
     
     footer{
-        position: fixed;
+        position: static;
         width: 100%;
         bottom: 25px;
     }
@@ -469,6 +468,7 @@ p{
         width: 100%;
         overflow: hidden;
         top: 25px;
+        text-align: center;
     }
     
     hr{
@@ -477,6 +477,10 @@ p{
     
     main{
         display: block;
+    }
+
+    nav{
+        text-align: center;
     }
     
     p{
@@ -496,12 +500,12 @@ p{
     }
     
     .container{
-        width: 960px;
+        width: 536px;
         height: auto;
+        /* height: 830px; */
         background-color: #ffffff;
-        margin: 200px auto 200px auto;
-        /* margin-top: 20px;
-        margin-bottom: 60px; */
+        margin: 100px auto 100px auto;
+        /* text-align: center; */
     
     }
     
@@ -509,23 +513,28 @@ p{
         color: white;
         background-color: #4aaaa5;
         text-decoration: none;
-        padding: 15px;
+        /* padding: 15px; */
         font-size: 35px;
         font-weight: bold;
+        display: block;
+        text-align: center;
         
     
     }
     
     .main-nav{
         margin-bottom: 30px;
+        display: block;
+        text-align: center;
+
         
     
     }
     
     .nav-item{
         text-decoration: none;
-        float: right;
-        padding-right: 5px;
+        /* float: right; */
+        /* padding-right: 5px; */
         color: #777777;
         font-size: 18px;
     }
@@ -541,7 +550,7 @@ p{
         display: block;
         text-align: center;
         bottom: 0;
-        position: sticky;
+        position: static;
         padding-top: 15px;
     }
     
@@ -552,9 +561,7 @@ p{
     }
     
     #profile-photo{
-        float: left;
-        overflow: auto;
-        width: 15%;
+        width: auto;
         height: auto;
         margin-right: 10px;
         margin-left: 5px;
