@@ -151,12 +151,8 @@ p{
 
 @media only screen and (max-width: 640px){
     header{
-        background-color: #ffffff;
-        border-bottom: #cccccc 2px solid;
         position: static;
         width: 100%;
-        overflow: auto;
-        /* top: 20px; */
         text-align: center;
         display: block;
     }
@@ -170,25 +166,46 @@ p{
         display: block;
         text-align: center;
     }
+
+    .main-nav{
+    }
     
     .nav-item{
-        float: none;
+        float: right;
+        margin-right: 87px ;
     }
 
     .container{
-        height: 400px;
-        width: auto;
-        margin: 10px auto 10px auto;
+        width: 90%;
+        margin: 100px 32px;
+        text-align: center;
     }
 
     #profile-photo{
         float: none;
         display: block;
+        margin-left: 180px;
+        margin-right: 50px;
+        width: auto;
+        height: 200px;
+    }
+
+    .bio-text{
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     footer{
         position: static;
         bottom: 10px;
         /* display: block; */
+    }
+
+    #copyright-text{
+        display: block;
+        text-align: center;
+        /* bottom: 0; */
+        position: static;
+        padding-top: 15px;
     }
 }
