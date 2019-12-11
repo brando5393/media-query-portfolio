@@ -143,6 +143,42 @@ p{
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 980px){
+    header{
+        position: static;
+        width: 100%;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .container{
+        width: 80%;
+        margin: 100px 32px;
+        /* text-align: center; */
+    }
+
+    #profile-photo{
+        width: auto;
+        height: 90px;
+    }
+
+    #page-heading{
+        text-align: left;
+    }
+
+    figure{
+        float: left;
+        overflow: auto;
+        position: relative;
+    }
+
+
+    footer{
+        position: static;
+        bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
