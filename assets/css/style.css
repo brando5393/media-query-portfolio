@@ -146,7 +146,41 @@ p{
 }
 
 @media only screen and (max-width: 768px){
+    header{
+        position: static;
+        width: 100%;
+    }
 
+    .logo{
+        text-align: center;
+    }
+
+    .container{
+        width: 90%;
+        margin: 100px 32px;
+        /* text-align: center; */
+    }
+
+    #profile-photo{
+        width: auto;
+        height: 80px;
+    }
+
+    #page-heading{
+        text-align: left;
+    }
+
+    figure{
+        float: left;
+        overflow: auto;
+        position: relative;
+    }
+
+
+    footer{
+        position: static;
+        bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 640px){
@@ -181,6 +215,10 @@ p{
         text-align: center;
     }
 
+    #page-heading{
+        margin-top: 0px;
+    }
+
     #profile-photo{
         float: none;
         display: block;
@@ -195,10 +233,29 @@ p{
         margin-right: 50px;
     }
 
+    figcaption{
+        color: #ffffff;
+        background-color: #4aaaa5;
+        padding: 15px 0px 15px 0px;
+        display: block;
+        float: none;
+        position: absolute;
+        bottom: 15px;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 25px;
+        margin-left: 125px;
+    }
+    
+    figure{
+        float: none;
+        overflow: auto;
+        position: relative;
+    }
+
     footer{
         position: static;
         bottom: 10px;
-        /* display: block; */
     }
 
     #copyright-text{
