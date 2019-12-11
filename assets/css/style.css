@@ -155,7 +155,6 @@ p{
     .container{
         width: 80%;
         margin: 100px 32px;
-        /* text-align: center; */
     }
 
     #profile-photo{
@@ -194,7 +193,6 @@ p{
     .container{
         width: 90%;
         margin: 100px 32px;
-        /* text-align: center; */
     }
 
     #profile-photo{
@@ -297,7 +295,6 @@ p{
     #copyright-text{
         display: block;
         text-align: center;
-        /* bottom: 0; */
         position: static;
         padding-top: 15px;
     }
